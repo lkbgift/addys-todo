@@ -1,9 +1,11 @@
-var app = app || {};
-var ENTER_KEY = 13;
+  // js/app.js
 
-$(function() {
+  var app = app || {};
+  var ENTER_KEY = 13;
 
-	// Kick things off by creating the **App**.
-	new app.AppView();
+  $(function() {
 
-});
+    // Kick things off by creating the **App**.
+    new app.AppView();
+
+  });
